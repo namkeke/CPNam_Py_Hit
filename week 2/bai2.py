@@ -1,0 +1,2 @@
+a,b,c = map(float,input('nhap 3 canh cua tam giac:').split())
+print("canh lon nhat = ",max(a,b,c),"\ncanh nho nhat = ",min(a,b,c),"\nchu vi = ",a+b+c,"\ndien tich = ",((a+b+c)/2*((a+b+c)/2-a)*((a+b+c)/2-b)*((a+b+c)/2-c))**0.5)
